@@ -17,9 +17,9 @@
 #
 ---
 include:
-  - board: nrfmicro_13
-    shield: noir_left
-  - board: nrfmicro_13
-    shield: noir_right
-  - board: nrfmicro_13
+  - board: nice_nano_v2
+    shield: noir88rgb_left
+  - board: nice_nano_v2
+    shield: noir88rgb_right
+  - board: nice_nano_v2
     shield: settings_reset
