@@ -40,10 +40,10 @@
         lower_layer {
 
 // ------------------------------------------------------------------------------------------------------------
-// |RGB BRI+|RGB SAT+|RGB HUE+|RGB SPD+|F1     |F2     |F3        |F4     |F5     |ESC    |              |BACK   |F6      |F7    |F8        |F9    |F10   |F11   |F12   |COPY  |PASTE |
+// |RGB BRI+|RGB SAT+|RGB HUE+|RGB SPD+|F1     |F2     |F3        |F4     |F5     |BOOTLOADER|     |BOOTLOADER   |F6      |F7    |F8        |F9    |F10   |F11   |F12   |COPY  |PASTE |
 // |RGB BRI-|RGB SAT-|RGB HUE-|RGB SPD-|BT_CLR |W      |E         |R      |T      |TAB    |              |`      |Y       |U     |I         |O     |P     |"["   |"]"   |\     |HOME  |
 // |BT1     |BT2     |BT3     |RGB ANI+|A      |S      |D         |F      |G      |CAP    |              |ENTER  |H       |J     |K         |L     |/     |;     |'     |UP    |END   |
-// |RGB TOG |BT4     |BT5     |RGB ANI-|Z      |X      |BOOTLOADER|V      |B      |SHIFT  |EC11  ||EC11  |SHIFT  |B       |N     |BOOTLOADER|,     |.     |DEL   |LEFT  |DOWN  |RIGHT |
+// |RGB TOG |BT4     |BT5     |RGB ANI-|Z      |X      |C         |V      |B      |SHIFT  |EC11  ||EC11  |SHIFT  |B       |N     |M         |,     |.     |DEL   |LEFT  |DOWN  |RIGHT |
 //                                                     |GUI       |CTRL   |ALT    |SPACE  |              |SPACE  |ALT     |CTRL  |LOWER     |
             
             bindings = <
