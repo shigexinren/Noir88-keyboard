@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2020 Pete Johanson
+ * Copyright (c) 2024 Noir Guo
  *
  * SPDX-License-Identifier: MIT
  */
 
-#include "noir88rgb.dtsi"
+#include "Noir88.dtsi"
 
 &default_transform {
     col-offset = <10>;
