@@ -1,8 +1,8 @@
 
-if SHIELD_noir88rgb_LEFT
+if SHIELD_NOIR88_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "noir88rgb"
+    default "Noir88"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
