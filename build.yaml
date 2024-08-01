@@ -6,22 +6,28 @@
 # distinguish build outputs from each other:
 #
 # board: [ "nice_nano_v2" ]
-# shield: [ "Noir88_left", "Noir88_right" ]
+# shield: [ "noir88rgb_left", "noir88rgb_right" ]
 # include:
 #   - board: nice_nano_v2
-#     shield: Noir88_left
+#     shield: noir88rgb_left
 #   - board: nice_nano_v2
-#     shield: Noir88_right
+#     shield: noir88rgb_right
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-#     artifact-name: Noir88_left_with_logging
+#     artifact-name: noir88rgb_left_with_logging
 #
 ---
 include:
   - board: nice_nano_v2
-    shield: Noir88_left
+    shield: noir88rgb_left
   - board: nice_nano_v2
-    shield: Noir88_right
+    shield: noir88rgb_right
   - board: nice_nano_v2
     shield: settings_reset
-
+    
+  - board: nrfmicro_13
+    shield: noir88rgb_left
+  - board: nrfmicro_13
+    shield: noir88rgb_right
+  - board: nrfmicro_13
+    shield: settings_reset
 
